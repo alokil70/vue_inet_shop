@@ -1,5 +1,6 @@
 <template>
     <div class="m-main-wrapper">
+        <p>{{title}}</p>
         <m-cart/>
         <m-catalog/>
     </div>
@@ -14,10 +15,19 @@
         components: {
             mCart,
             mCatalog
+        },
+        data() {
+            return {
+                title: 'Main wrapper'
+            }
         }
     }
 </script>
 
-<style scoped>
+<style>
+    .m-main-wrapper {
+        max-width: 900px;
+        margin: 0 auto;
+    }
 
 </style>

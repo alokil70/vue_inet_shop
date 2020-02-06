@@ -1,5 +1,7 @@
 <template>
+    <div class="m-cart">
 
+    </div>
 </template>
 
 <script>
