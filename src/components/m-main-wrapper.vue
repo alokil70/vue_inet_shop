@@ -1,21 +1,18 @@
 <template>
     <div class="m-main-wrapper">
         <p>{{title}}</p>
-        <m-cart/>
-        <m-catalog/>
+
+        <keep-alive>
+            <router-view/>
+        </keep-alive>
+
     </div>
 </template>
-
 <script>
-    import mCatalog from './m-catalog'
-    import mCart from './m-cart'
+
 
     export default {
         name: "m-main-wrapper",
-        components: {
-            mCart,
-            mCatalog
-        },
         data() {
             return {
                 title: 'Main wrapper'
