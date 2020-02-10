@@ -5,7 +5,7 @@ import apiRequest from './actions/api-request'
 import mutations from "./mutations/mutations";
 import getters from "./getters/getters";
 
-const actions = {...commonActions, ...apiRequest}
+const actions = {...commonActions, ...apiRequest};
 
 Vue.use(Vuex);
 

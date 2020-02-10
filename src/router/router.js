@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import mComponent from '../components/m-catalog'
-import mCart from '../components/m-cart'
+import mComponent from '../components/catalog/m-catalog'
+import mCart from '../components/cart/m-cart'
 
 Vue.use(Router)
 

@@ -2,7 +2,7 @@
     <div class="m-cart-item">
         <img
                 class="m-cart-item__image"
-                :src="require('../assets/images/' + cart_item_data.image)"
+                :src="require('../../assets/images/' + cart_item_data.image)"
                 alt="img"
         >
         <div class="m-cart-item__info">
